@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Joan Giménez Gómez",
+    "label": "Web App Developer",
+    "image": "https://media.licdn.com/dms/image/D4D03AQFK8kvHhOVY2g/profile-displayphoto-shrink_800_800/0/1682934626003?e=1717027200&v=beta&t=pRPj2_g06d0EjklPxfBe8mUNtsQFcydg98w2Rw-G_Ac",
+    "email": "joangimenezgomez@gmail.com",
+    "phone": "+34 606892058",
+    "url": "https://joangimenezgomez.com",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "08905",
+      "city": "L'Hospitalet de Llobregat",
+      "countryCode": "ES",
+      "region": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joan-gimenez",
+        "url": "https://www.linkedin.com/in/joan-gimenez/"
+      },
+      {
+        "network": "GitHub",
+        "username": "jgimenezg",
+        "url": "https://github.com/jgimenezg"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "GMedia",
+      "position": "Intern",
+      "url": "https://www.gmedia.es/",
+      "startDate": "2023-11-02",
+      "endDate": "2024-03-1",
+      "summary": "I helped making websites using Wordpress (including its PHP side). Also I helped solving problems in their Plesk server",
+      "highlights": []
+    },
+    {
+      "name": "Ancau",
+      "position": "Quality Control manager",
+      "url": "https://ancau.com/",
+      "startDate": "2021-12-01",
+      "endDate": null,
+      "summary": "I supervised quality control procedures and implemented whatever changes appeared in the law. I also contacted clients and providers regarding possible health safety issues in our products",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Institut Jaume Balmes | Institut TIC de Barcelona",
+      "url": "https://agora.xtec.cat/iticbcn/",
+      "area": "Web App Development",
+      "studyType": "High-Level Technical Degree",
+      "startDate": "2021-09-20",
+      "endDate": null,
+      "score": null,
+      "courses": ["DB1101 - Basic SQL"]
+    },
+    {
+      "institution": "Universitat de Barcelona",
+      "url": "https://web.ub.edu/en/home",
+      "area": "Food Safety",
+      "studyType": "Master's degree",
+      "startDate": "2018-09-17",
+      "endDate": "2019-06-14",
+      "score": null,
+      "courses": null
+    },
+    {
+        "institution": "Universitat de Barcelona",
+        "url": "https://web.ub.edu/en/home",
+        "area": "Biotechnology",
+        "studyType": "Bachelor's degree",
+        "startDate": "2014-09-15",
+        "endDate": "2018-06-20",
+        "score": null,
+        "courses": null
+      }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Basic",
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Basic",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Basic",
+      "keywords": ["Version control", "Collaboration", "Source code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Basic",
+      "keywords": [
+        "Version control",
+        "Collaboration",
+        "Source code",
+        "Git"
+      ]
+    },
+    {
+      "name": "Django",
+      "level": "Basic",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Rest Framework",
+        "Python"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Basic",
+      "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Catalan",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "C1 qualification"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "name",
+      "isActive": true,
+      "description": "description",
+      "highlights": ["a, b"],
+      "url": null
+    }
+  ]
+}
