@@ -61,11 +61,38 @@ const { title } = Astro.props;
 	}
 
 	p{
-		color: #777;
-		font-size: .8rem;
+		color: #666;
+		font-size: 0.9rem;
 		line-height: 1.5;
 		margin: 0;
 		/*NOT SUPPORTED BY ALL BROWSERS!*/
 		text-wrap: pretty; 
 	}
+	
+	.print{
+		display: none;
+	}
+
+	@media print{
+		.print{
+			display: block
+		}
+
+		.print>div{
+			display: flex;
+		}
+
+		.print-telmail{
+			display: flex;
+		}
+
+		.print-telmail > * {
+			margin-right: 8px;
+		}
+
+		.no-print{
+			display: none !important;
+		}
+	}
 </style>
+

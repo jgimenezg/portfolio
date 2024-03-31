@@ -2,11 +2,11 @@
   "basics": {
     "name": "Joan Giménez Gómez",
     "label": "Web App Developer",
-    "image": "https://media.licdn.com/dms/image/D4D03AQFK8kvHhOVY2g/profile-displayphoto-shrink_800_800/0/1682934626003?e=1717027200&v=beta&t=pRPj2_g06d0EjklPxfBe8mUNtsQFcydg98w2Rw-G_Ac",
+    "image": "src/img/pfp.jpg",
     "email": "joangimenezgomez@gmail.com",
-    "phone": "+34 606892058",
+    "phone": "+34606892058",
     "url": "https://joangimenezgomez.com",
-    "summary": "",
+    "summary": "As a web developer, I try to learn new and interesting technologies for my projects. I have a good foundation in HTML and CSS. Currently I'm working with Django REST framework for my personal projects. I have also worked with Wordpress, along with multiple plugins. I'm eager to join a team with a focus on creating innovative projects.",
     "location": {
       "address": "",
       "postalCode": "08905",
@@ -34,7 +34,7 @@
       "url": "https://www.gmedia.es/",
       "startDate": "2023-11-02",
       "endDate": "2024-03-1",
-      "summary": "I helped making websites using Wordpress (including its PHP side). Also I helped solving problems in their Plesk server",
+      "summary": "I helped making websites using Wordpress (including its PHP side). Also I helped solving problems in their Plesk server.",
       "highlights": []
     },
     {
@@ -43,7 +43,7 @@
       "url": "https://ancau.com/",
       "startDate": "2021-12-01",
       "endDate": null,
-      "summary": "I supervised quality control procedures and implemented whatever changes appeared in the law. I also contacted clients and providers regarding possible health safety issues in our products",
+      "summary": "I supervised quality control procedures and implemented whatever changes appeared in the law. I also contacted clients and providers regarding possible health safety issues in our products.",
       "highlights": []
     }
   ],
@@ -172,7 +172,12 @@
     {
       "language": "English",
       "fluency": "C1 qualification"
+    },
+    {
+      "language": "French",
+      "fluency": "Basic"
     }
+
   ],
   "interests": [
     {

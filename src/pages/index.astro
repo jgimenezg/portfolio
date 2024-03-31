@@ -6,11 +6,15 @@ import Education from '@/components/sections/Education.astro';
 import Hero from '@/components/sections/Hero.astro';
 import Projects from '@/components/sections/Projects.astro';
 import Skills from '@/components/sections/Skills.astro';
-import KeyboardManager from '@/components/KeyboardManager.astro';
+import Languages from '@/components/sections/Languages.astro';
+import Spaceslider from "@/components/Spaceslider.astro";
+import Spacebackground from "@/components/Spacebackground.astro";
 
 ---
 
 <Layout title="CV Joan Giménez">
+	<Spaceslider />
+	<!--<Spacebackground />-->
 	<main>
 		<Hero />
 		<About />
@@ -18,12 +22,14 @@ import KeyboardManager from '@/components/KeyboardManager.astro';
 		<Education />
 		<Projects />
 		<Skills />
+		<Languages/>
 	</main>
-	<KeyboardManager />
 </Layout>
 
 <style>
 	main{
+		position: relative;
+		z-index: 20;
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
