@@ -1,9 +1,9 @@
 <div class="no-print">
-    <label class="switch">
-        <input type="checkbox">
-        <span class="slider round"></span>
-    </label>
-    <p>Wanna go to space?</p>
+  <label class="switch">
+    <input type="checkbox" id="checkbox" onclick="switchCheck()">
+    <span class="slider round"></span>
+  </label>
+  <p>Wanna go to space?</p>
 </div>
 
 <style>
@@ -78,3 +78,91 @@ p{
     margin-left: 10px;
 }
 </style>
+
+<script>
+
+let checkBox = document.getElementById("checkbox") as HTMLInputElement;
+let background = document.getElementById("spback") as HTMLInputElement;
+let body = document.body as HTMLInputElement;
+let p = document.querySelectorAll("p");
+let h1 = document.querySelectorAll("h1");
+let h2 = document.querySelectorAll("h2");
+let h3 = document.querySelectorAll("h3");
+let h4 = document.querySelectorAll("h4");
+let h5 = document.querySelectorAll("h5");
+let time = document.querySelectorAll("time");
+let span = document.querySelectorAll("span");
+let svg = document.querySelectorAll("svg");
+
+  function switchCheck(){
+
+    if (checkBox.checked){
+      background.style.display = "block";
+      body.style.background = "#000435";
+      p.forEach(p=> {
+        p.style.color = 'white';
+      })
+      h1.forEach(h1=> {
+        h1.style.color = 'white';
+      })
+      h2.forEach(h2=> {
+        h2.style.color = 'white';
+      })
+      h3.forEach(h3=> {
+        h3.style.color = 'white';
+      })
+      h4.forEach(h4=> {
+        h4.style.color = 'white';
+      })
+      h5.forEach(h5=> {
+        h5.style.color = 'white';
+      })
+      time.forEach(time=> {
+        time.style.color = 'white';
+      })
+      span.forEach(span=> {
+        span.style.color = 'white';
+      })
+      svg.forEach(svg=> {
+        svg.style.color = 'white';
+      })
+    }
+    else{
+      background.style.display = "none";
+      body.style.background = "white";
+      p.forEach(p=> {
+        p.style.color = '#666';
+      })
+      h1.forEach(h1=> {
+        h1.style.color = 'black';
+      })
+      h2.forEach(h2=> {
+        h2.style.color = 'black';
+      })
+      h3.forEach(h3=> {
+        h3.style.color = '#111';
+      })
+      h4.forEach(h4=> {
+        h4.style.color = '#222';
+      })
+      h5.forEach(h5=> {
+        h5.style.color = 'black';
+      })
+      time.forEach(time=> {
+        time.style.color = '#555';
+      })
+      span.forEach(span=> {
+        span.style.color = '#666';
+      })
+      svg.forEach(svg=> {
+        svg.style.color = '#777';
+      })
+
+    }
+  }
+
+  checkBox.addEventListener("click", () => switchCheck());
+</script>
+
+
+

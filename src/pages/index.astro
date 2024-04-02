@@ -13,8 +13,12 @@ import Spacebackground from "@/components/Spacebackground.astro";
 ---
 
 <Layout title="CV Joan Giménez">
-	<Spaceslider />
-	<!--<Spacebackground />-->
+	<div class="slider">
+		<Spaceslider />
+	</div>
+	<div id="spback">
+		<Spacebackground />
+	</div>
 	<main>
 		<Hero />
 		<About />
@@ -27,11 +31,35 @@ import Spacebackground from "@/components/Spacebackground.astro";
 </Layout>
 
 <style>
+
+	body{
+		background: white;
+		height: 170vh;
+  overflow-x: hidden;
+	}
 	main{
 		position: relative;
 		z-index: 20;
 		padding: 4rem;
 		margin: auto;
 		width: 100%;
+	}
+	.slider{
+		position: relative;
+		z-index: 21;
+		max-width: 700px;
+	}
+
+	#spback{
+		display: none;
+	}
+
+	@media (max-width: 820px){
+		.slider{
+			display: none;
+		}
+		body{
+			background: white !important;
+		}
 	}
 </style>
