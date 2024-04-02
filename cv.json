@@ -2,7 +2,7 @@
   "basics": {
     "name": "Joan Giménez Gómez",
     "label": "Web App Developer",
-    "image": "src/img/pfp.jpg",
+    "image": "public/img/pfp.jpg",
     "email": "joangimenezgomez@gmail.com",
     "phone": "+34606892058",
     "url": "https://joangimenezgomez.com",
