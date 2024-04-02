@@ -6,6 +6,9 @@ import Phone from "@/icons/Phone.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import githubqr from "/public/img/qr_github.png";
+import linkedinqr from "/public/img/qr_linkedin.png";
+import pfp from "/public/img/pfp.jpg";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -84,11 +87,11 @@ const linkedrl = linkedInfo?.url
           <div>
             <div>
               <h3>LinkedIn</h3>
-              <img src="public/img/qr_linkedin.png"/>
+              <img src={linkedinqr.src}/>
             </div>
             <div>
               <h3>Github</h3>
-              <img src="public/img/qr_github.png"/>
+              <img src={githubqr.src}/>
             </div>
           </div>
           
@@ -97,7 +100,7 @@ const linkedrl = linkedInfo?.url
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name}/>
+      <img src={pfp.src} alt={name}/>
     </figure>
   </div>
 </Section>

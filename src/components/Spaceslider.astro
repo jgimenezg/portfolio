@@ -93,6 +93,8 @@ let h5 = document.querySelectorAll("h5");
 let time = document.querySelectorAll("time");
 let span = document.querySelectorAll("span");
 let svg = document.querySelectorAll("svg");
+let skills= document.getElementsByClassName("skillName");
+let skillsArray = Array.from(skills) as HTMLElement[];
 
   function switchCheck(){
 
@@ -126,6 +128,10 @@ let svg = document.querySelectorAll("svg");
       svg.forEach(svg=> {
         svg.style.color = 'white';
       })
+
+      skillsArray.forEach(span => {
+        span.style.color = "white";
+      });
     }
     else{
       background.style.display = "none";
@@ -157,7 +163,9 @@ let svg = document.querySelectorAll("svg");
       svg.forEach(svg=> {
         svg.style.color = '#777';
       })
-
+      skillsArray.forEach(span => {
+        span.style.color = "white";
+      });
     }
   }
 
